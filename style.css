@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+:root {
+    --blue-color: rgb(0, 149, 246);
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 70%;
+    height: 100vh;
+}
+
+.phone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.phone img {
+    height: 50rem;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    min-height: 40rem;
+}
+
+.group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.accont {
+    min-height: 22rem;
+}
+
+.accont .logo {
+    height: 3rem;
+}
+
+.accont .profile {
+    height: 8rem;
+    border-radius: 50%;
+    margin: 10px 0 25px 0;
+}
+
+.accont .btn {
+    padding: 8px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    background-color: var(--blue-color);
+    cursor: pointer;
+}
+
+.link {
+    color: var(--blue-color);
+}
+
+.not-accont {
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+
+.not-accont p {
+    color: rgb(160, 160, 160);
+}
+
+.not-accont .text {
+    margin-bottom: 10px;
+}
+
+.apps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.apps p {
+    margin-bottom: 25px;
+    font-weight: 100;
+}
+
+.apps-icons img {
+    height: 3rem;
+}
